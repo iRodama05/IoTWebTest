@@ -1,7 +1,3 @@
-/* Este es el contenido del archivo style.css
-  Nota que aquí NO se usan etiquetas <style>
-*/
-
 body {
     background-color: #1a1a1a;
     color: #b0c0b0;
@@ -42,4 +38,5 @@ p {
     background-color: #252525;
     padding: 15px;
     border-left: 4px solid #66ffcc;
+
 }
