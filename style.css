@@ -1,0 +1,45 @@
+/* Este es el contenido del archivo style.css
+  Nota que aquí NO se usan etiquetas <style>
+*/
+
+body {
+    background-color: #1a1a1a;
+    color: #b0c0b0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+h1 {
+    color: #66ffcc;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #00ffff;
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #00ffff;
+    border-radius: 8px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.opinion {
+    color: #ccffdd;
+    font-size: 1.1em;
+    font-style: italic;
+    background-color: #252525;
+    padding: 15px;
+    border-left: 4px solid #66ffcc;
+}
