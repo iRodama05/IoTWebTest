@@ -1,0 +1,67 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    /* Fondo por defecto (un cielo azul) */
+    background-color: #7EC0EE;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    
+    /* Agregamos una transición suave para el cambio de color */
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Contenedor de la imagen principal */
+.personaje-container {
+    margin-top: 20px;
+    /* Damos una altura fija para que la página no "salte"
+       cuando las imágenes cambien de tamaño */
+    min-height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de la imagen principal */
+#personaje {
+    max-width: 300px;
+    height: auto;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Contenedor de los botones */
+#controles {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo semitransparente */
+    border-radius: 15px;
+    display: inline-block; /* Para que el contenedor se ajuste al contenido */
+}
+
+/* Estilo para cada imagen-botón */
+.power-up {
+    width: 70px;
+    height: 70px;
+    margin: 0 15px; /* Espacio horizontal entre botones */
+    cursor: pointer; /* Cambia el cursor a una "manita" */
+    border: 3px solid white;
+    border-radius: 50%; /* Hace los botones circulares */
+    background-color: white;
+    
+    /* Transición para el efecto hover */
+    transition: transform 0.2s ease;
+}
+
+/* Efecto al pasar el mouse por encima de un botón */
+.power-up:hover {
+    transform: scale(1.15); /* Agranda el botón ligeramente */
+    box-shadow: 0 0 15px yellow;
+}
